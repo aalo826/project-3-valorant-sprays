@@ -1,18 +1,18 @@
 @font-face {
   font-family: "DINNEXTW1G";
-  src: url(../Assets/Fonts/DIN-Next-W1G.otf);
+  src: url(./Assets/Fonts/DIN-Next-W1G.otf);
 }
 @font-face {
   font-family: "DINNEXTW05";
-  src: url(../Assets/Fonts/URW-DIN-W05.ttf);
+  src: url(./Assets/Fonts/URW-DIN-W05.ttf);
 }
 @font-face {
   font-family: "Tungsten";
-  src: url(../Assets/Fonts/Tungsten-Bold.ttf);
+  src: url(./Assets/Fonts/Tungsten-Bold.ttf);
 }
 @font-face {
   font-family: "Valorant";
-  src: url(../Assets/Fonts/Valorant-Font.ttf);
+  src: url(./Assets/Fonts/Valorant-Font.ttf);
 }
 html {
   line-height: 1.15;
