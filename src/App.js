@@ -1,6 +1,12 @@
 import './Styles/App.css';
 import { useEffect, useState } from "react";
 import axios from 'axios';
+import Navbar from './Components/Navbar'
+import Header from './Components/Header';
+import Sprays from './Components/Sprays';
+import About from './Components/About';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   const [spray, setSpray] = useState([]);
@@ -15,28 +21,21 @@ function App() {
   })
   return (
     <div className="App">
-      <h1> View sprays</h1>
+      <div>
+
+        <Navbar />
+        <Header />
+        <Sprays />
+        <About />
+        <Contact />
+        <Footer />
+      </div>
     </div>
+
   );
 }
 
 export default App;
 
 
-// Psuedo Code
-
-// Landing page with blank square canvas
-// Button under canvas prompting user to click it
-// When clicked, displays image from Valorant API
-
-// use method (getSpray) to get the list of sprays
-// Since the the sprays have an unreadable ID, .map() to assign each spray an ID starting from 0.
-
-  // let i = 0;
-  // spray.map(n => {
-  //   n['id'] = i;
-  //   i++;
-  // })
-
-// Make a random number generator to pick a random spray to display based on the ID number
 

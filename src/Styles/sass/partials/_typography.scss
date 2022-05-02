@@ -1,0 +1,37 @@
+html{
+  font-size: 125%;
+  overflow-x: hidden;
+  border: none;
+  scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul, li, a, input {
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+  font-family: $valorant;
+}
+
+h2 {
+  font-family: $tungsten;
+}
+
+h3 {
+  font-family: $header3;
+}
+
+p{
+  font-family: $paragraph;
+}
+
+p{
+  color: red;
+}

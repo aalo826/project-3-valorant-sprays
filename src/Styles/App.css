@@ -251,6 +251,45 @@ html {
   overflow: hidden;
 }
 
-body {
-  color: green;
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 125%;
+  overflow-x: hidden;
+  border: none;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul, li, a, input {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Valorant";
+}
+
+h2 {
+  font-family: "Tungsten";
+}
+
+h3 {
+  font-family: "DINNEXTW1G";
+}
+
+p {
+  font-family: "DINNEXTW05";
+}
+
+p {
+  color: red;
 }
