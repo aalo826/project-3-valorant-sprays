@@ -1,5 +1,52 @@
 #sprays {
-  height: 100vh;
   background-image: url('../Assets/valorant-background.jpg');
   background-position: center;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#spray-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 680px;
+  max-width: 680px;
+
+}
+
+.spray-content {
+  display: flex;
+  max-height: 680px;
+  max-width: 680px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $spraybg;
+  border: solid 6px grey;
+
+}
+
+.spray-content img {
+  padding: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.spray-content h3 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.spray-button{
+  margin-top: 70px;
+  padding: 10px 30px;
+  background-color: $sprayButton;
+  font-family: $header3 ;
+  font-size: 1.3rem;
+  color: white;
+  border: 3px solid gray;
 }

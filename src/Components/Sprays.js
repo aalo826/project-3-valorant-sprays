@@ -27,6 +27,10 @@ const Sprays = () => {
           sprayDisplay = sprayGif;
         }
 
+        if (sprayGif && sprayImg === null){
+
+        }
+
         return {
           name:sprayName,
           display: sprayDisplay,
@@ -39,10 +43,6 @@ const Sprays = () => {
     });
   }, []);
 
-  // const [singleSpray, setSingleSpray] = useState([spray]);
-  // useEffect(() => {
-  //   console.log(spray)
-  // })
 
   const handleRandomSpray = () => {
     const index = Math.floor(Math.random() * spray.length +1)
@@ -54,16 +54,26 @@ const Sprays = () => {
 
   return (
     <section id="sprays">
-      <button onClick={() => {handleRandomSpray()}}>Test</button>
-      {
-        randomSpray.id !== undefined ? (
-          <div>
-            <img src={randomSpray.display} alt={randomSpray.name} />
-            <p>{randomSpray.name}</p>
-          </div>
-        ): null
+      <div id="spray-container">
+        <div className="spray-content">
+        {
+          randomSpray.id !== undefined ? (
+              <>
+                <img src={randomSpray.display} alt={randomSpray.name}/>
+                <h3>{randomSpray.name}</h3>
+              </>
+          ): null
+        }
 
-      }
+            </div>
+      </div>
+
+        <button className='spray-button' onClick=
+        {
+          () => {handleRandomSpray()}
+        }
+
+        >Spray</button>
 
 
     </section>

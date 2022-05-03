@@ -38,7 +38,13 @@
     font-family: $paragraph;
     font-size: 1.4rem;
   }
+
+  .spray-content {
+    margin: 0px 25px;
+  }
 }
+
+
 @media (min-width: 461px){
   nav {
     a{
@@ -82,6 +88,12 @@
 }
 
 @media (max-width: 400px) {
+  .spray-content img {
+    height: 300px;
+    width: 300px;
+  }
+
+
   .footer-disclaimer {
     width: 80%;
   }

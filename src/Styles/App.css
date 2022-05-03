@@ -381,9 +381,77 @@ header .wrapper {
 }
 
 #sprays {
-  height: 100vh;
   background-image: url("../Assets/valorant-background.jpg");
   background-position: center;
+  padding: 100px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#spray-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 680px;
+  max-width: 680px;
+}
+
+.spray-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 680px;
+  max-width: 680px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #68789a;
+  border: solid 6px grey;
+}
+
+.spray-content img {
+  padding: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.spray-content h3 {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.spray-button {
+  margin-top: 70px;
+  padding: 10px 30px;
+  background-color: #669da2;
+  font-family: "DINNEXTW1G";
+  font-size: 1.3rem;
+  color: white;
+  border: 3px solid gray;
 }
 
 #about {
@@ -537,6 +605,10 @@ footer .wrapper {
     font-family: "DINNEXTW05";
     font-size: 1.4rem;
   }
+
+  .spray-content {
+    margin: 0px 25px;
+  }
 }
 @media (min-width: 461px) {
   nav a:hover {
@@ -579,6 +651,11 @@ footer .wrapper {
   }
 }
 @media (max-width: 400px) {
+  .spray-content img {
+    height: 300px;
+    width: 300px;
+  }
+
   .footer-disclaimer {
     width: 80%;
   }
