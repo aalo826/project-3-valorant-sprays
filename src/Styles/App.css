@@ -300,17 +300,17 @@ h1 {
 
 h2 {
   font-family: "Tungsten";
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 h3 {
   font-family: "DINNEXTW1G";
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 p {
   font-family: "DINNEXTW05";
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 ul {
@@ -409,7 +409,7 @@ header .wrapper {
 }
 
 #about p {
-  width: 85%;
+  width: 80%;
 }
 
 #contact {

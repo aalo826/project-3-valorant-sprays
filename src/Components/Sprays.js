@@ -12,9 +12,8 @@ const Sprays = () => {
     }).then((response) => {
       // console.log(response)
       const sprayArray = response.data.data;
-      setSpray(sprayArray);
 
-      sprayArray.map((sprayData, index) => {
+      const finalData = sprayArray.map((sprayData, index) => {
         const sprayName = sprayData.displayName;
         const sprayImg = sprayData.fullTransparentIcon;
         const sprayGif = sprayData.animationPng;
@@ -28,21 +27,21 @@ const Sprays = () => {
           sprayDisplay = sprayGif;
         }
 
-
+        return {
+          name:sprayName,
+          display: sprayDisplay,
+          id:sprayId,
+          key:sprayKey
+        }
       });
+      console.log(finalData)
+      setSpray(finalData);
     });
   }, []);
 
   return (
     <section id="sprays">
 
-{/*
-      {spray.map((spray) => (
-        <li key={spray.uuid}>
-          <img src={spray.fullTransparentIcon} alt={spray.displayName} />
-          <p>{spray.displayName}</p>
-        </li>
-      ))} */}
     </section>
   );
 };
