@@ -1,4 +1,4 @@
-const Navbar = () => {
+const DesktopNav = () => {
   return (
     <nav className="desktop-nav">
       <div className="wrapper">
@@ -21,4 +21,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default DesktopNav;

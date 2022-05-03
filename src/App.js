@@ -1,5 +1,5 @@
 import './Styles/App.css';
-import Navbar from './Components/Navbar'
+import DesktopNav from "./Components/DesktopNav";
 import Header from './Components/Header';
 import Sprays from './Components/Sprays';
 import About from './Components/About';
@@ -11,7 +11,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <DesktopNav />
       <Header />
       <About />
       <Sprays />

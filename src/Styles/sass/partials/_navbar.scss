@@ -27,13 +27,7 @@ nav {
       color: white;
       padding-left: 70px;
       cursor: pointer;
-      transition: 0.3s;
       padding: 30px;
-
-      &:hover,
-      &:focus {
-        background-color: $red;
-      }
     }
   }
 }
