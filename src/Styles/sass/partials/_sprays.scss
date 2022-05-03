@@ -9,23 +9,20 @@
 }
 
 #spray-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 680px;
-  max-width: 680px;
-
 }
 
 .spray-content {
   display: flex;
-  max-height: 680px;
-  max-width: 680px;
-  justify-content: center;
   flex-direction: column;
   background-color: $spraybg;
   border: solid 6px grey;
+  min-height: 680px;
+  min-width: 680px;
 
 }
 

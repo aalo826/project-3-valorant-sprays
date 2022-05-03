@@ -27,19 +27,26 @@ const Sprays = () => {
           sprayDisplay = sprayGif;
         }
 
-        if (sprayGif && sprayImg === null){
-
+        if (sprayGif || sprayImg) {
+          return {
+            name: sprayName,
+            display: sprayDisplay,
+            id: sprayId,
+            key: sprayKey,
+          };
+        } else {
+          return {
+            name: "Explorgi Spray",
+            display:
+              "https://media.valorant-api.com/sprays/25d82d17-4739-e206-e8aa-d1bd4fd4dae6/fulltransparenticon.png",
+            id: "25d82d17-4739-e206-e8aa-d1bd4fd4dae6",
+            key: 42,
+          };
         }
 
-        return {
-          name:sprayName,
-          display: sprayDisplay,
-          id:sprayId,
-          key:sprayKey
-        }
       });
       setSpray(finalData);
-      // console.log(finalData)
+      console.log(finalData)
     });
   }, []);
 
@@ -56,8 +63,9 @@ const Sprays = () => {
     <section id="sprays">
       <div id="spray-container">
         <div className="spray-content">
+
         {
-          randomSpray.id !== undefined ? (
+          randomSpray.key !== undefined ? (
               <>
                 <img src={randomSpray.display} alt={randomSpray.name}/>
                 <h3>{randomSpray.name}</h3>
@@ -65,7 +73,7 @@ const Sprays = () => {
           ): null
         }
 
-            </div>
+        </div>
       </div>
 
         <button className='spray-button' onClick=
