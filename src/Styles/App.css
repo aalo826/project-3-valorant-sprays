@@ -395,3 +395,36 @@ header .wrapper {
 #about h1, h2, h3, p {
   margin: 10px;
 }
+
+#contact {
+  background-color: #ece8e2;
+}
+
+#contact .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact a {
+  padding-left: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#contact a:hover {
+  color: #ff4656;
+}
+
+.contactEmail p {
+  font-family: "FFMarkW05";
+  font-size: 1.5rem;
+}
+
+.contactInfo p {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,31 @@
+#contact {
+  background-color: $offwhite;
+}
+
+#contact .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#contact a {
+  padding-left: 20px;
+  transition: 0.3s;
+  &:hover{
+    color: $red;
+  }
+}
+
+.contactEmail {
+  p{
+    font-family: $nav;
+    font-size: 1.5rem;
+  }
+}
+
+.contactInfo {
+  p{
+  font-size: 1.2rem;
+  }
+}
