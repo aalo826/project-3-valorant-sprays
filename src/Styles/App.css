@@ -482,6 +482,7 @@ footer .wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
 }
 
 .footer-button {
@@ -550,6 +551,10 @@ footer .wrapper {
             flex-direction: column;
   }
 
+  .footer-disclaimer {
+    width: 80%;
+  }
+
   .desktop-nav {
     position: relative;
   }
@@ -571,5 +576,14 @@ footer .wrapper {
   nav li a {
     padding: 10px;
     width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .footer-disclaimer {
+    width: 80%;
+  }
+
+  footer p {
+    word-spacing: 5px;
   }
 }

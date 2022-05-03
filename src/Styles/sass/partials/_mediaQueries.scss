@@ -54,6 +54,11 @@
     flex-direction: column;
   }
 
+  .footer-disclaimer {
+    width: 80%;
+  }
+
+
   .desktop-nav {
     position: relative;
   }
@@ -73,5 +78,15 @@
         width: 100%;
       }
     }
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-disclaimer {
+    width: 80%;
+  }
+
+  footer p {
+    word-spacing: 5px;
   }
 }
