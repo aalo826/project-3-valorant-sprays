@@ -322,6 +322,12 @@ a {
   color: inherit;
 }
 
+.wrapper {
+  max-width: 1900px;
+  width: 95%;
+  margin: 0 auto;
+}
+
 nav {
   text-transform: uppercase;
   font-size: 0.7rem;
@@ -346,9 +352,15 @@ nav ul a {
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  padding: 30px;
 }
 nav ul a:hover, nav ul a:focus {
-  color: #ff4656;
+  background-color: #ff4656;
+}
+
+.desktop-nav {
+  position: sticky;
+  top: 0;
 }
 
 header {
@@ -366,16 +378,18 @@ header .wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 50px 0px;
+  padding: 100px 0px;
+}
+
+#sprays {
+  height: 100vh;
+  background-image: url("../Assets/valorant-background.jpg");
 }
 
 #about {
   background-color: #ff4656;
   color: white;
-  padding: 50px;
-}
-#about p {
-  color: white;
+  padding: 100px 0px;
 }
 #about .wrapper {
   display: -webkit-box;
@@ -396,7 +410,7 @@ header .wrapper {
 
 #contact {
   background-color: #ece8e2;
-  padding: 50px 0px;
+  padding: 100px 0px;
 }
 
 #contact .wrapper {

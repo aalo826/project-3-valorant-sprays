@@ -6,6 +6,11 @@ a {
     text-decoration: none;
     color: inherit;
 }
+.wrapper {
+  max-width: 1900px;
+  width: 95%;
+  margin: 0 auto;
+}
 
 nav {
   text-transform: uppercase;
@@ -23,11 +28,17 @@ nav {
       padding-left: 70px;
       cursor: pointer;
       transition: 0.3s;
+      padding: 30px;
 
       &:hover,
       &:focus {
-        color: $red;
+        background-color: $red;
       }
     }
   }
+}
+
+.desktop-nav{
+  position: sticky;
+  top: 0;
 }

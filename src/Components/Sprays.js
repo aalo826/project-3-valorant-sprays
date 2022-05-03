@@ -34,7 +34,7 @@ const Sprays = () => {
   }, []);
 
   return (
-    <div id="sprays">
+    <section id="sprays">
 
 {/*
       {spray.map((spray) => (
@@ -43,7 +43,7 @@ const Sprays = () => {
           <p>{spray.displayName}</p>
         </li>
       ))} */}
-    </div>
+    </section>
   );
 };
 
