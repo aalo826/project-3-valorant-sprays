@@ -1,18 +1,22 @@
 @font-face {
   font-family: "DINNEXTW1G";
-  src: url(./Assets/Fonts/DIN-Next-W1G.otf);
+  src: url(./Fonts/DIN-Next-W1G.otf);
 }
 @font-face {
   font-family: "DINNEXTW05";
-  src: url(./Assets/Fonts/URW-DIN-W05.ttf);
+  src: url(./Fonts/URW-DIN-W05.ttf);
 }
 @font-face {
   font-family: "Tungsten";
-  src: url(./Assets/Fonts/Tungsten-Bold.ttf);
+  src: url(./Fonts/Tungsten-Bold.ttf);
 }
 @font-face {
   font-family: "Valorant";
-  src: url(./Assets/Fonts/Valorant-Font.ttf);
+  src: url(./Fonts/Valorant-Font.ttf);
+}
+@font-face {
+  font-family: "FFMarkW05";
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf);
 }
 html {
   line-height: 1.15;
@@ -257,6 +261,20 @@ html {
   margin: 0 auto;
 }
 
+.button-github {
+  border: none;
+  background-color: black;
+  font-family: "DINNEXTW05";
+  color: white;
+  text-transform: lowercase;
+  padding: 7px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.button-github:hover {
+  background-color: grey;
+}
+
 html {
   font-size: 125%;
   overflow-x: hidden;
@@ -276,20 +294,62 @@ ul, li, a, input {
 
 h1 {
   font-family: "Valorant";
+  font-size: 4rem;
 }
 
 h2 {
   font-family: "Tungsten";
+  font-size: 3rem;
 }
 
 h3 {
   font-family: "DINNEXTW1G";
+  font-size: 2rem;
 }
 
 p {
   font-family: "DINNEXTW05";
+  font-size: 1.5rem;
 }
 
 p {
-  color: red;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  background-color: #292929;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+nav ul a {
+  font-family: "FFMarkW05";
+  color: white;
+  padding-left: 70px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+nav ul a:hover, nav ul a:focus {
+  color: #ff4656;
 }

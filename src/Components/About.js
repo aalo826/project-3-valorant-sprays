@@ -1,23 +1,11 @@
 const About = () => {
   return (
-    <div>
+    <>
       <div className="wrapper">
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#sprays">Sprays</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aut quae eum quasi deleniti ex iure praesentium veritatis labore harum. Sit, sed ex tenetur aut aliquam magni repellendus beatae neque vitae facere quisquam! Beatae tempora ullam deleniti nam quasi eum soluta, ducimus natus ea quas. Quam praesentium officia enim repellat.</p>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -3,3 +3,17 @@
   width: 90%;
   margin: 0 auto;
 }
+
+.button-github {
+  border: none;
+  background-color: black;
+  font-family: $paragraph;
+  color: white;
+  text-transform: lowercase;
+  padding: 7px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  &:hover{
+    background-color: grey;
+  }
+}
