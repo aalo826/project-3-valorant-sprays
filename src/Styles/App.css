@@ -262,11 +262,12 @@ html {
 }
 
 .button-github {
-  border: none;
-  background-color: black;
+  background-color: #ff4656;
   font-family: "DINNEXTW05";
   color: white;
   text-transform: lowercase;
+  text-align: center;
+  border-radius: 10px;
   padding: 7px 25px;
   margin-top: 20px;
   cursor: pointer;
@@ -310,10 +311,6 @@ h3 {
 p {
   font-family: "DINNEXTW05";
   font-size: 1.5rem;
-}
-
-p {
-  color: black;
 }
 
 ul {
@@ -369,6 +366,7 @@ header .wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 50px 0px;
 }
 
 #about {
@@ -398,6 +396,7 @@ header .wrapper {
 
 #contact {
   background-color: #ece8e2;
+  padding: 50px 0px;
 }
 
 #contact .wrapper {
@@ -427,4 +426,47 @@ header .wrapper {
 
 .contactInfo p {
   font-size: 1.2rem;
+}
+
+footer {
+  background-color: #111111;
+}
+
+footer .wrapper {
+  max-width: 1920px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0px;
+}
+
+.footer-disclaimer {
+  width: 30%;
+  color: white;
+}
+.footer-disclaimer p {
+  font-size: 1rem;
+}
+
+.footer-copyright {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-button {
+  text-align: center;
+  margin-top: 30px;
 }

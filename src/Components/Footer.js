@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div>
+    <footer>
       <div className="wrapper">
         <div className="footer-disclaimer">
           <p>
@@ -12,12 +12,14 @@ const Footer = () => {
         </div>
         <div className="footer-copyright">
           <p>© 2022 Aaron Lo</p>
-          <a href="#" className="button-github">
-            Github Repository
-          </a>
+          <div className="footer-button">
+            <a href="#" className="button-github">
+              Github Repository
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

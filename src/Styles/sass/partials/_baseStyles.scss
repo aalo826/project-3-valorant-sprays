@@ -5,11 +5,12 @@
 }
 
 .button-github {
-  border: none;
-  background-color: black;
+  background-color: $red;
   font-family: $paragraph;
   color: white;
   text-transform: lowercase;
+  text-align: center;
+  border-radius: 10px;
   padding: 7px 25px;
   margin-top: 20px;
   cursor: pointer;
