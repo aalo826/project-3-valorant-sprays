@@ -4,7 +4,7 @@ import { brands } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 const Contact = () => {
   return (
-    <>
+    <div id="contact">
       <div className="wrapper">
         <section className="contact" id="contact">
           <div className="wrapper">
@@ -34,7 +34,7 @@ const Contact = () => {
           </div>
         </section>
       </div>
-    </>
+    </div>
   );
 };
 

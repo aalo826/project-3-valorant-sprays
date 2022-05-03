@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header id="home">
+    <header>
       <div className="wrapper">
         <h1> vAlorant sprays</h1>
         <h3>The cosmetic images from Riot Game's tactical shooter.</h3>

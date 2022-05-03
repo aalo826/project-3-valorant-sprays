@@ -11,10 +11,8 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
-      <>
-        <Navbar />
-        <Header />
-      </>
+      <Navbar />
+      <Header />
       <Sprays />
       <About />
       <Contact />
