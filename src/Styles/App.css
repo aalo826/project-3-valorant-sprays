@@ -352,6 +352,9 @@ nav ul a {
   cursor: pointer;
   padding: 30px;
 }
+nav ul a:hover {
+  background-color: #ff4656;
+}
 
 .desktop-nav {
   position: sticky;
@@ -540,6 +543,13 @@ footer .wrapper {
   }
 }
 @media (max-width: 460px) {
+  footer .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
   .desktop-nav {
     position: relative;
   }
@@ -555,16 +565,11 @@ footer .wrapper {
     text-align: center;
     padding: 20px;
   }
-  nav li:active {
+  nav li:hover {
     background-color: #ff4656;
   }
   nav li a {
     padding: 10px;
     width: 100%;
-  }
-}
-@media (min-width: 460px) {
-  .mobile-menu {
-    display: none;
   }
 }

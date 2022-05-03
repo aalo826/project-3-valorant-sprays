@@ -28,6 +28,9 @@ nav {
       padding-left: 70px;
       cursor: pointer;
       padding: 30px;
+      &:hover {
+        background-color: $red;
+      }
     }
   }
 }

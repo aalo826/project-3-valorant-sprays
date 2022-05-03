@@ -50,6 +50,10 @@
   }
 }
 @media (max-width: 460px) {
+  footer .wrapper {
+    flex-direction: column;
+  }
+
   .desktop-nav {
     position: relative;
   }
@@ -60,21 +64,14 @@
     li {
       width: 100%;
       text-align: center;
-      &:active {
+      padding: 20px;
+      &:hover {
         background-color: $red;
       }
-      padding: 20px;
       a{
         padding: 10px;
         width: 100%;
       }
-
     }
-  }
-}
-
-@media (min-width: 460px) {
-  .mobile-menu {
-    display: none;
   }
 }
