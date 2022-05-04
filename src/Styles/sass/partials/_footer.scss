@@ -1,0 +1,32 @@
+footer {
+  background-color: $greydark;
+
+}
+
+footer .wrapper {
+  max-width: 1920px;
+  width: 95%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.footer-disclaimer {
+  width: 30%;
+  color: white;
+  p {
+    font-size: 1rem;
+  }
+}
+.footer-copyright{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-button {
+  text-align: center;
+  margin-top: 30px;
+}

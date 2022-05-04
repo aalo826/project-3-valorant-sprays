@@ -1,0 +1,59 @@
+#sprays {
+  background-image: url('../Assets/valorant-background.jpg');
+  background-position: center;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#spray-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  min-width: 500px;
+}
+
+.spray-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $spraybg;
+  border: solid 6px grey;
+  min-height: 500px;
+  min-width: 500px;
+
+}
+
+.spray-content img {
+  padding: 30px;
+  max-height: 400px;
+  max-width: 400px;
+
+}
+
+.spray-content p {
+  font-family: $header3;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  width: 60%;
+}
+
+.spray-button{
+  margin-top: 70px;
+  padding: 10px 30px;
+  background-color: $sprayButton;
+  font-family: $header3 ;
+  font-size: 1.3rem;
+  color: white;
+  border: 3px solid gray;
+  &:hover{
+    filter: brightness(115%);
+  }
+}

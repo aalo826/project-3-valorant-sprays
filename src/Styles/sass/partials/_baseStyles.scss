@@ -1,0 +1,20 @@
+.wrapper{
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.button-github {
+  background-color: $red;
+  font-family: $paragraph;
+  color: white;
+  text-transform: lowercase;
+  text-align: center;
+  border-radius: 10px;
+  padding: 7px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  &:hover{
+    background-color: grey;
+  }
+}

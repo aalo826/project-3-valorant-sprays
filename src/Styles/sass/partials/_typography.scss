@@ -1,0 +1,41 @@
+html{
+  font-size: 125%;
+  overflow-x: hidden;
+  border: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x:hidden;
+  padding: 0;
+  margin: 0;
+}
+
+ul, li, a, input {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+h1 {
+  font-family: $valorant;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: $tungsten;
+  font-size: 4rem;
+}
+
+h3 {
+  font-family: $header3;
+  font-size: 1.2rem;
+}
+
+p{
+  font-family: $paragraph;
+  font-size: 0.9rem;
+}
+
+

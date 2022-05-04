@@ -1,0 +1,44 @@
+// Fonts
+@font-face {
+  font-family: 'DINNEXTW1G';
+  src: url(./Fonts/DIN-Next-W1G.otf);
+}
+
+@font-face {
+  font-family: 'DINNEXTW05';
+  src: url(./Fonts/URW-DIN-W05.ttf);
+}
+
+@font-face {
+  font-family: 'Tungsten';
+  src: url(./Fonts/Tungsten-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Valorant';
+  src: url(./Fonts/Valorant-Font.ttf);
+}
+
+@font-face {
+  font-family: 'FFMarkW05';
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf );
+}
+
+// Setup
+@import "./partials/setup";
+
+
+// Basic Styling
+@import "./partials/variables";
+@import "./partials/baseStyles";
+@import "./partials/typography";
+
+// Body Styling
+@import "./partials/navbar";
+@import "./partials/header";
+@import "./partials/sprays";
+@import "./partials/about";
+@import "./partials/contact";
+@import "./partials/footer";
+@import "./partials/mediaQueries"
+

@@ -1,0 +1,694 @@
+@font-face {
+  font-family: "DINNEXTW1G";
+  src: url(./Fonts/DIN-Next-W1G.otf);
+}
+@font-face {
+  font-family: "DINNEXTW05";
+  src: url(./Fonts/URW-DIN-W05.ttf);
+}
+@font-face {
+  font-family: "Tungsten";
+  src: url(./Fonts/Tungsten-Bold.ttf);
+}
+@font-face {
+  font-family: "Valorant";
+  src: url(./Fonts/Valorant-Font.ttf);
+}
+@font-face {
+  font-family: "FFMarkW05";
+  src: url(./Fonts/FontFont_FF.Mark.Pro.otf);
+}
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.button-github {
+  background-color: #ff4656;
+  font-family: "DINNEXTW05";
+  color: white;
+  text-transform: lowercase;
+  text-align: center;
+  border-radius: 10px;
+  padding: 7px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.button-github:hover {
+  background-color: grey;
+}
+
+html {
+  font-size: 125%;
+  overflow-x: hidden;
+  border: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+ul, li, a, input {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Valorant";
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: "Tungsten";
+  font-size: 4rem;
+}
+
+h3 {
+  font-family: "DINNEXTW1G";
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: "DINNEXTW05";
+  font-size: 0.9rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  max-width: 1900px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+nav {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  background-color: #292929;
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+nav ul a {
+  font-family: "FFMarkW05";
+  color: white;
+  padding-left: 70px;
+  cursor: pointer;
+  padding: 30px;
+}
+nav ul a:hover {
+  background-color: #ff4656;
+}
+
+header {
+  background-color: #ece8e2;
+  text-align: center;
+}
+
+header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 0px;
+}
+
+#sprays {
+  background-image: url("../Assets/valorant-background.jpg");
+  background-position: center;
+  padding: 100px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#spray-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 500px;
+  min-width: 500px;
+}
+
+.spray-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #68789a;
+  border: solid 6px grey;
+  min-height: 500px;
+  min-width: 500px;
+}
+
+.spray-content img {
+  padding: 30px;
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.spray-content p {
+  font-family: "DINNEXTW1G";
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  width: 60%;
+}
+
+.spray-button {
+  margin-top: 70px;
+  padding: 10px 30px;
+  background-color: #669da2;
+  font-family: "DINNEXTW1G";
+  font-size: 1.3rem;
+  color: white;
+  border: 3px solid gray;
+}
+.spray-button:hover {
+  -webkit-filter: brightness(115%);
+          filter: brightness(115%);
+}
+
+#about {
+  background-color: #ff4656;
+  color: white;
+  padding: 100px 0px;
+}
+#about .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about h1, h2, h3, p {
+  margin: 10px;
+}
+
+#about p {
+  width: 80%;
+}
+
+#contact {
+  background-color: #ece8e2;
+  padding: 100px 0px;
+}
+
+#contact .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact a {
+  padding-left: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#contact a:hover {
+  color: #ff4656;
+}
+
+.contactEmail p {
+  font-family: "FFMarkW05";
+  font-size: 1.5rem;
+}
+
+.contactInfo p {
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: #111111;
+}
+
+footer .wrapper {
+  max-width: 1920px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0px;
+}
+
+.footer-disclaimer {
+  width: 30%;
+  color: white;
+}
+.footer-disclaimer p {
+  font-size: 1rem;
+}
+
+.footer-copyright {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.footer-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media (max-width: 1300px) {
+  nav ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .footer-disclaimer {
+    width: 40%;
+    color: white;
+  }
+}
+@media (max-width: 845px) {
+  .footer-disclaimer {
+    width: 50%;
+  }
+
+  #contact .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: "Valorant";
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-family: "Tungsten";
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-family: "DINNEXTW1G";
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-family: "DINNEXTW05";
+    font-size: 1.4rem;
+  }
+
+  .spray-content {
+    margin: 0px 25px;
+  }
+}
+@media (max-width: 580px) {
+  .spray-content {
+    min-height: 300px;
+    min-width: 300px;
+  }
+
+  .spray-content img {
+    padding: 30px;
+    max-height: 300px;
+    max-width: 300px;
+  }
+}
+@media (min-width: 461px) {
+  nav a:hover {
+    background-color: #ff4656;
+  }
+}
+@media (max-width: 460px) {
+  footer .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .footer-disclaimer {
+    width: 80%;
+  }
+
+  .desktop-nav {
+    position: relative;
+  }
+
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  nav li {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  nav li:hover {
+    background-color: #ff4656;
+  }
+  nav li a {
+    padding: 10px;
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .spray-content {
+    min-height: 250px;
+    min-width: 250px;
+  }
+
+  .spray-content img {
+    padding: 30px;
+    max-height: 250px;
+    max-width: 250px;
+  }
+
+  .spray-content p {
+    font-size: 1rem;
+  }
+
+  .footer-disclaimer {
+    width: 80%;
+  }
+
+  footer p {
+    word-spacing: 5px;
+  }
+}
