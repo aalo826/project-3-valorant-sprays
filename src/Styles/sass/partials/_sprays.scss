@@ -21,8 +21,8 @@
   flex-direction: column;
   background-color: $spraybg;
   border: solid 6px grey;
-  min-height: 680px;
-  min-width: 680px;
+  min-height: 500px;
+  min-width: 500px;
 
 }
 
@@ -46,4 +46,7 @@
   font-size: 1.3rem;
   color: white;
   border: 3px solid gray;
+  &:hover{
+    filter: brightness(115%);
+  }
 }

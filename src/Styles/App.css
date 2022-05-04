@@ -419,8 +419,8 @@ header .wrapper {
           flex-direction: column;
   background-color: #68789a;
   border: solid 6px grey;
-  min-height: 680px;
-  min-width: 680px;
+  min-height: 500px;
+  min-width: 500px;
 }
 
 .spray-content img {
@@ -443,6 +443,10 @@ header .wrapper {
   font-size: 1.3rem;
   color: white;
   border: 3px solid gray;
+}
+.spray-button:hover {
+  -webkit-filter: brightness(115%);
+          filter: brightness(115%);
 }
 
 #about {
