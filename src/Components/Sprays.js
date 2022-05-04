@@ -68,7 +68,7 @@ const Sprays = () => {
           randomSpray.key !== undefined ? (
               <>
                 <img src={randomSpray.display} alt={randomSpray.name}/>
-                <h3>{randomSpray.name}</h3>
+                <p>{randomSpray.name}</p>
               </>
           ): null
         }

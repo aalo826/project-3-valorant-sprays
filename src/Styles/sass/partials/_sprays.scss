@@ -14,11 +14,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 500px;
+  min-width: 500px;
 }
 
 .spray-content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: $spraybg;
   border: solid 6px grey;
@@ -28,15 +31,18 @@
 }
 
 .spray-content img {
-  padding: 5px;
-  max-width: 433px;
-  height: auto;
+  padding: 30px;
+  max-height: 400px;
+  max-width: 400px;
+
 }
 
-.spray-content h3 {
+.spray-content p {
+  font-family: $header3;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
+  width: 60%;
 }
 
 .spray-button{

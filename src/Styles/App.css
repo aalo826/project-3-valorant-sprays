@@ -407,6 +407,8 @@ header .wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 500px;
+  min-width: 500px;
 }
 
 .spray-content {
@@ -417,6 +419,9 @@ header .wrapper {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -427,15 +432,17 @@ header .wrapper {
 }
 
 .spray-content img {
-  padding: 5px;
-  max-width: 433px;
-  height: auto;
+  padding: 30px;
+  max-height: 400px;
+  max-width: 400px;
 }
 
-.spray-content h3 {
+.spray-content p {
+  font-family: "DINNEXTW1G";
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-align: center;
+  width: 60%;
 }
 
 .spray-button {
