@@ -7,11 +7,11 @@ const Contact = () => {
     <section id="contact">
       <div className="wrapper">
         <div className="socialIcons">
-          <a href="#">
+          <a href="https://github.com/aalo826/project-3-valorant-sprays">
             <FontAwesomeIcon className="icons" icon={brands("github")} size="2x" />
           </a>
-          <a href="#">
-            <FontAwesomeIcon className="icons"  icon={brands("Linkedin")} size="2x" />
+          <a href="https://www.linkedin.com/in/aaron-lo-677248233/">
+            <FontAwesomeIcon className="icons" icon={brands("Linkedin")} size="2x" />
           </a>
         </div>
         <div className="contactEmail">

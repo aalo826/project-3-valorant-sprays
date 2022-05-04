@@ -284,6 +284,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
 }
@@ -615,6 +616,18 @@ footer .wrapper {
     margin: 0px 25px;
   }
 }
+@media (max-width: 580px) {
+  .spray-content {
+    min-height: 300px;
+    min-width: 300px;
+  }
+
+  .spray-content img {
+    padding: 30px;
+    max-height: 300px;
+    max-width: 300px;
+  }
+}
 @media (min-width: 461px) {
   nav a:hover {
     background-color: #ff4656;
@@ -656,9 +669,19 @@ footer .wrapper {
   }
 }
 @media (max-width: 400px) {
+  .spray-content {
+    min-height: 250px;
+    min-width: 250px;
+  }
+
   .spray-content img {
-    height: 300px;
-    width: 300px;
+    padding: 30px;
+    max-height: 250px;
+    max-width: 250px;
+  }
+
+  .spray-content p {
+    font-size: 1rem;
   }
 
   .footer-disclaimer {

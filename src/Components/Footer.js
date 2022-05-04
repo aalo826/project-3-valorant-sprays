@@ -13,7 +13,10 @@ const Footer = () => {
         <div className="footer-copyright">
           <p>© 2022 Aaron Lo</p>
           <div className="footer-button">
-            <a href="#" className="button-github">
+            <a
+              href="https://github.com/aalo826/project-3-valorant-sprays"
+              className="button-github"
+            >
               Github Repository
             </a>
           </div>
