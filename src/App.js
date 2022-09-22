@@ -9,6 +9,7 @@ import Footer from './Components/Footer';
 
 
 function App() {
+  document.title = "Valorant Sprays"
   return (
     <div className="App">
       <DesktopNav />
